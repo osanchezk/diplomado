@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun 11 12:20:48 2022
+
+@author: oksm
+"""
+
+import matplotlib.pyplot as plt
+
+xpoints = [1,8]
+ypoints = [3,10]
+
+y=[3,8,1,10]
+
+#plt.plot(xpoints, ypoints, 'o')
+
+font = {'family':'serif', 'color':'blue'}
+
+plt.title("Este es un ejemplo")
+plt.xlabel("Este es un ejemplo Horizontal")
+plt.ylabel("Este es un ejemplo Vertical")
+
+plt.plot(y, 'o:b')
+
+plt.show()
+
+
+

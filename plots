@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul  6 15:51:39 2022
+
+@author: oksm
+"""
+#matplotlib inline
+import matplotlib.pyplot as plt
+
+plt.plot(10,10,'o')
+plt.title("Esta es una prueba")
+plt.ylabel("Por aca1")
+plt.xlabel("Por aca2")
+plt.show()    

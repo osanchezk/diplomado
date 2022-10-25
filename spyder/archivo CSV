@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun 11 11:06:20 2022
+
+@author: oksm
+"""
+
+
+import csv
+
+#with open('csv/Data.csv', newline='', encoding='utf-8') as f:
+#    leer_csv=csv.reader(f)
+ #   
+  #  for i in leer_csv:
+   #     print(i)
+
+##### Convertirla a matriz
+    
+#f=open('csv/Data.csv', 'r')
+#leer_csv=csv.reader(f)
+
+#for row in leer_csv:
+#    for col in row:
+#        print(col)
+#f.close()        
+        
+        
+### Escribimos
+
+from random import randint
+
+
+def crea_Matriz(r,c):
+    f = open("ejemplo.csv", "w")
+    writer = csv.writer(f)
+    m=[]
+    for i in range(r): #Renglones
+        f=[]
+        for j in range(c): #Columnas
+            dat=randint(1,100)
+    print(m);
+        #m.append(f)
+    #return m        
+
+
+r = int(input("Cuantas renglones de la matriz desdeas: "))
+c = int(input("Cuantas columnas de la matriz desdeas: "))    
+crea_Matriz(r,c)        
+#print(*matrizF1, sep="\n")
