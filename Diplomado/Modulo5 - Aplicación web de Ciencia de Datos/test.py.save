@@ -1,0 +1,7 @@
+import streamlit as stimpo
+
+st.title("Mi primer App")
+st.header("Información sobre el conjunto de Datos")
+st.write("""
+	Hola Mundo streamlit
+	""")
