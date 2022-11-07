@@ -23,7 +23,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 
-DATA = 'Employees.csv'
+DATA = 'Diplomado/reto5/Employees.csv'
 
 #nrow: Default 500
 defaultRows = 500;
